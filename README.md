@@ -5,12 +5,24 @@ Learn by truly understanding what it is you're trying to learn. This project is 
 
 ## Todo, as far as figured out
 
+*Kubernetes*
+
 - [ ] Install etcd
 - [ ] Get binaries for kube-apiserver, scheduler and controller
 - [ ] Run kube-apiserver with etcd ip and port (`--etcd_servers=http://192.168.2.150`)
 - [ ] Run scheduler and controller with apiserver ip and port (`--master=192.168.2.200`)
 - [ ] etcd <- apiserver <- scheduler + controller is the dependency graph
 - [ ] Run kubelets on other machines, specifying apiserver ip and port (`--api-servers=http://192.168.2.200`)
+
+*Nextcloud*
+
+- [ ] Nginx with php-fpm
+- [ ] PHP 7.4 runtime
+- [ ] MySQL/MariaDB for state
+
+*Off-premise scheduled backups*
+
+- [ ] Figure out (something like borg -> b2blaze?)
 
 ## Mental models
 
